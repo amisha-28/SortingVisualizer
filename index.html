@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+<div id="main-container">
+    <div id="top-bar" class="section">
+        <div class="top-bar-item">
+            <h2>Sorting Algorithm Visualizer</h2>
+        </div>
+        <div class="top-bar-item">
+            ALGORITHM: <span id="algo-name"></span> Sort,
+            (Delay : <span id="delay-ms"></span> ms)
+        </div>
+    </div>
+    <div id="sorting-view" class="section"></div>
+    <div id="nav-bar" class="section">
+        <div class="nav-bar-item">
+            <label for="algo-options">Algorithm : </label>
+            <select id="algo-options" onchange="changeSort()"></select>
+            <label for="order-options">Order : </label>
+            <select id="order-options" onchange="changeOrder()"></select>
+            <label for="input-size">Input Size : </label>
+            <input type="number" id="input-size" name="input-size" placeholder="Enter input size" value="50"  onchange="changeInputSize()">
+        </div>
+        <div class="nav-bar-item">
+            <button type="button" id="startBtn" onclick="start()">START</button>
+            <button type="button" id="resetBtn" onclick="reset()">RESET</button>
+        </div>
+    </div>  
+</div>
+</body>
+<script src="initials.js"></script>
+<script src="controls.js"></script>
+<script src="algorithms-bubble-sort.js"></script>
+<script src="algorithms-insertion-sort.js"></script>
+<script src="algorithms-selection-sort.js"></script>
+</html>
