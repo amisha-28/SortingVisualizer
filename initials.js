@@ -2,7 +2,7 @@ const sortingView = document.querySelector("#sorting-view");
 
 var numArray = [];
 var arrayMaxValue = 100;
-var arraySize = 10;
+var arraySize = 50;
 var sortingContainer = document.getElementById("sorting-view");
 var alogoSelect = document.getElementById("algo-options");
 var delayInMs = 50;
