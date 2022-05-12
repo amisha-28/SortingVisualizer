@@ -1,6 +1,6 @@
 # SortingVisualizer
 Lets call it DSA tool.
-Soing Algorithms can be easily understood by visualizing instead of long codes.
+Sorting Algorithms can be easily understood by visualizing instead of long codes.
 
 # Description
 Webpage build to brush up my skills on HTML, CSS & JavaScript (timer function in js). It also helps one to remember Sorting Algorithms more efficiently.
